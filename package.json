@@ -1,0 +1,19 @@
+{
+  "name": "entrance-quiz",
+  "version": "1.0.0",
+  "private": "true",
+  "main": "index.js",
+  "repository": "https://github.com/ishan-open/frontend-entrance-quiz.git",
+  "license": "MIT",
+  "scripts": {
+    "test": "NODE_ENV=test jest",
+    "test:watch": "jest --watch"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "babel-jest": "^27.4.2",
+    "jest": "^27.4.3",
+    "jest-in-case": "^1.0.2"
+  }
+}
